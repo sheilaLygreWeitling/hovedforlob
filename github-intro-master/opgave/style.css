@@ -1,4 +1,77 @@
-html, body {
+/*GENEREL CSS*/
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    background-color: linen;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wrapper {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+header {
+    background-color: lightpink;
+    padding: 2em;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li {
+    list-style-type: none;
+    
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+/*BODY*/
+
+h1, h3 {
+    padding: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    margin: 0 auto;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+    line-height: 1.5;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: lightpink;
+    padding: 2em;
+}
+
+.footer--p {
+    display: flex;
+    justify-content: center;
+
+} 
